@@ -1,0 +1,4 @@
+    $('#myCarousel').carousel({
+        pause: 'none'
+	})
+	

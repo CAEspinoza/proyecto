@@ -1,0 +1,123 @@
+body,html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(255, 235, 59, 0.08);
+}
+ 
+
+.main {
+
+    background: url(../img/cafe2.jpg) no-repeat center center;
+    background-size: cover;
+    margin-top: 50px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+ 
+.main .headline {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+ 
+.main .headline-caption {
+    color: #FFF;
+    font-size: 0.8rem;
+}
+ 
+.main .navbar-latam {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 18px;
+}
+
+.main .navbar-latam li:hover   {
+    background-color: white;
+    border-color: white;
+    
+}
+ 
+.main .navbar-brand .logo {
+    max-width: 200px;
+    border-radius: 50% ;
+    margin-top: -63px;
+
+}
+.img-responsive {
+                 display: block;
+                 max-width: 100%;
+                 height: auto;
+}
+
+div.pics {
+    margin-top: 5px, 0;
+    padding: 0;
+    border: 0;
+    float: left;
+}
+
+div.pics .img-responsive{
+    margin-top: 5px, 0 ;
+    float: left;
+    padding: 0;
+    border: 0;
+    display: inline-block;
+    background: rgba(255, 235, 59, 0.08);
+}
+
+
+
+article {
+    text-align: justify;
+    padding-bottom: 0;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+article.photo {
+    margin-top: 15px;
+}
+
+section div .contacto{
+    text-align: center;
+    margin-top: 20px;  
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  
+}
+div.contacto strong {
+    font-size: 30px;
+    color: white;
+}
+
+div.formulario{
+    /*background: url(../img/contact.jpg) no-repeat center center;*/
+    background: url(../img/contact2.jpg) no-repeat center center ;
+
+    background-size: cover;
+    margin-top: 0;
+    max-width: 100%;
+    display: block;
+    height: auto; 
+}
+ div.contacto.checkbox{
+    color: white;
+ }
+
+ footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+   max-width: 100%;
+ }
